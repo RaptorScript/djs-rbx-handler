@@ -8,4 +8,4 @@ module.exports.client = client
 client.commands = new Discord.Collection()
 require('./handler/cmd')()
 
-client.login('ODMwMDEwOTcwMjg1Mjc3MjM0.YHAd9A.gY_tJGnbr6A8SBPRSb7FYOKXkEM')
+client.login(token)
